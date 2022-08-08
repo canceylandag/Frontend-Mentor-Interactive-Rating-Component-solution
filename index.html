@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+
+
+</head>
+<body>
+
+  <!-- Rating state start -->
+<div class="pri">
+  <object id="icon-1" data="./images/icon-star.svg" width="17" height="16"> </object>
+
+  <h2>How did we do?</h2>
+
+  <p>
+    Please let us know how we did with your support request. All feedback is appreciated
+    to help us improve our offering!
+  </p>
+
+  <span class="tab">1</span>
+  <span class="tab">2</span>
+  <span class="tab">3</span>
+  <span class="tab">4</span>
+  <span class="tab">5</span>
+  <br>
+  <button type="button" name="button" class="submit" onclick="submit()">Submit</button>
+
+
+</div>
+
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+<div class="pri hide">
+  <object data="./images/illustration-thank-you.svg" width="162" height="108"> </object>
+<div class="wrapper">
+  <h3 >You selected <div id="result"></div> out of 5</h3>
+</div>
+
+
+  <h2>Thank you!</h2>
+
+  <p>We appreciate you taking the time to give a rating. If you ever need more support,
+  don’t hesitate to get in touch!</p>
+</div>
+
+
+  <!-- Thank you state end -->
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/canceylandag?tab=repositories">Can Ceylandağ</a>.
+  </div>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+</html>

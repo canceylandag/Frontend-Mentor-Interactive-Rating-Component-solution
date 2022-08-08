@@ -1,0 +1,112 @@
+body{
+
+background-color: hsl(216, 12%, 8%);
+width: 1440px;
+font-size: 95%;
+font-family: 'Overpass', sans-serif;
+}
+
+span{color:hsl(217, 12%, 63%)}
+
+.pri{
+
+
+background-color: hsl(213, 19%, 18%);
+width: 23%;
+margin: 10% auto 0 auto;
+border-radius: 5%;
+padding: 50px 30px 25px 30px;
+}
+
+.pri h2{
+
+color: hsl(0, 0%, 100%);
+
+
+}
+
+.pri p{
+
+color: hsl(217, 12%, 63%);
+margin-bottom: 15%;
+
+}
+
+.hide{
+
+  display: none;
+
+}
+
+.cent{text-align: center;}
+
+.submit{
+margin: 15% auto 0 0;
+padding:5% 0;
+border-radius: 21px;
+background-color: hsl(25, 97%, 53%);
+color: hsl(0, 0%, 100%);
+width: 100%;
+
+}
+.submit:hover{
+
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
+
+}
+.tab{
+background-color: hsl(216, 12%, 54%,0.15);
+  padding: 5% 6%;
+  border: solid 1px;
+  border-radius: 21px;
+  margin: auto 4px;
+
+}
+
+.active_tab{
+color: hsl(0, 0%, 100%);
+background-color:  hsl(25, 97%, 53%);
+
+}
+.semi_active_tab{
+
+background-color: hsl(217, 12%, 63%);
+color: hsl(0, 0%, 100%);
+
+}
+.wrapper,#result{
+display:inline;
+color: hsl(25, 97%, 53%);
+
+}
+
+#icon-1{
+
+  background-color: hsl(216, 12%, 54%,0.15);
+  border-radius: 21px;
+  padding: 3%;
+}
+
+
+.attribution { font-size: 11px; text-align: center; color: white;}
+.attribution a { color: hsl(228, 45%, 44%); }
+@media only screen and (max-width: 400px) {
+body{
+width: 375px;
+font-size: 50%;
+}
+.pri{
+
+width: 35%;
+
+}
+
+.tab{
+  margin: auto 1px;
+
+}
+
+.attribution {font-size: 8px;}
+
+}
